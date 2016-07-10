@@ -1,0 +1,288 @@
+/*
+ * Title:   Custom Style File
+ */
+
+.review-form .detailed-rating li label {
+    color: #01b7f2;
+    float: left;
+}
+
+.guest-review {
+    border-top: 1px solid #f5f5f5;
+    width: 100%;
+}
+
+/**
+Tour detail page  CSS start
+*/
+#tour-details .intro.table-wrapper>* {
+    border-collapse: collapse;
+}
+#tour-details .intro.table-wrapper {
+    padding: 0;
+    border-spacing: 15px;
+    border-collapse: separate;
+    table-layout: fixed;
+}
+#tour-details .intro {
+    background: #f5f5f5;
+}
+#tour-details .intro.table-wrapper .table-cell {
+    background: #fff;
+}
+#tour-details .features {
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: .8333em;
+}
+.tour-booking-form .detail-section-bottom {
+    border-top: 1px solid #f5f5f5;
+    padding-top: 20px;
+}
+.tour-booking-form {
+    padding: 25px 10px 5px;
+}
+.tour-booking-form .detail-section-bottom>.row>div {
+    margin-bottom: 20px;
+}
+.tour-booking-form .detail-section-top {
+    padding-bottom: 10px;
+}
+
+#tour-details .features label {
+    margin: 0 20px 0 0;
+    width: 110px;
+    border-right: 1px solid #f5f5f5;
+    color: #01b7f2;
+    white-space: nowrap;
+    height: 100%;
+}
+
+/**
+Tour detail page  CSS end
+*/
+
+.flexslider .slides li {
+     display: block;
+}
+
+/* 6.1.2. Booking history */
+.booking .filter-section {
+    padding: 10px 15px 5px 5px;
+    margin-bottom: 30px; }
+.booking .filter-section label.radio {
+    margin-top: 4px; }
+.booking .filter-section label.radio:before {
+    border: none;
+    line-height: 14px; }
+.booking .filter-section button {
+    margin-left: 8px;
+    font-weight: 400;
+    margin-bottom: 5px; }
+.booking .filter-section .action {
+    width: auto;
+    padding: 0 !important; }
+.booking .filter-section .action h5 {
+    width: auto;
+    line-height: 28px; }
+.booking .booking-info {
+    border-top: 1px solid #f5f5f5;
+    padding: 10px; }
+.booking .booking-info:last-child {
+    border-bottom: 1px solid #f5f5f5; }
+.booking .booking-info div.date {
+    width: 72px;
+    height: 72px;
+    background: #f5f5f5;
+    text-align: center;
+    float: left;
+    margin-right: 20px; }
+.booking .booking-info div.date > * {
+    margin: 0;
+    display: block; }
+.booking .booking-info div.date > .month {
+    background: #e44049;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.8333em;
+    color: #fff; }
+.booking .booking-info div.date > .date {
+    font-size: 2em;
+    line-height: 1em;
+    color: #e44049;
+    font-weight: bold;
+    margin-top: 6px; }
+.booking .booking-info div.date > .day {
+    font-size: 0.8333em;
+    font-weight: normal;
+    line-height: 1.25em; }
+.booking .booking-info .box-title, .booking .booking-info .status {
+    margin-top: 20px; }
+.booking .booking-info .icon {
+    font-size: 1.0833em;
+    float: left;
+    margin-right: 10px; }
+.booking .booking-info .box-title {
+    float: left; }
+.booking .booking-info .box-title small {
+    padding-left: 43px; }
+.booking .booking-info .status {
+    float: right;
+    margin-right: 15px;
+    background: #98ce44; }
+.booking .booking-info .info {
+    float: right;
+    padding-left: 15px;
+    border-left: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    padding-top: 2px;
+    margin-bottom: 0;
+    width: 140px; }
+.booking .booking-info .info * {
+    font-size: 0.8333em;
+    font-weight: normal; }
+.booking .booking-info .info dt {
+    color: #e44049; }
+.booking .booking-info.cancelled div.date > .month {
+    background: #d9d9d9; }
+.booking .booking-info.cancelled div.date > .date, .booking .booking-info.cancelled div.date > .day {
+    color: #d9d9d9; }
+.booking .booking-info.cancelled .icon, .booking .booking-info.cancelled .icon:before {
+    border-color: #d9d9d9;
+    color: #d9d9d9; }
+.booking .booking-info.cancelled .status {
+    background: #d9d9d9; }
+.booking .booking-info.cancelled .info dt {
+    color: inherit; }
+#facility .radio i {
+    font-size: 34px;
+}
+.detailed-rating li > .each-rating {
+    border-bottom: 0px solid #f5f5f5;
+}
+.tour-rating {
+    margin-bottom: 20px;
+}
+
+.alert .close:before {
+    position: absolute;
+}
+
+/*.agent .tab-container.full-width-style .tab-content {*/
+    /*min-height: 620px;*/
+/*}*/
+/**
+*   Delete confirm pop up
+*/
+
+.modal-content {
+    border-radius: 0;
+}
+.modal-header {
+    padding: 10px 15px;
+    border-bottom: 0px solid #e5e5e5;
+    min-height: 16.42857143px;
+    background: #01b7f2;
+}
+.modal-header .close {
+    margin-top: -8px;
+}
+.modal-header .close:hover {
+    background: transparent;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    color: #ffffff;
+    font-size: 1.25em;
+}
+.modal-body {
+    padding: 15px;
+}
+.modal-body p {
+    font-size: 1em;
+}
+.modal-footer {
+    padding: 10px 20px;
+    border: 0;
+}
+
+.price {
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.listing-style3.hotel .details > * > *:first-child {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 5px 15px 5px;
+}
+
+.room-info, .room-price {
+    width: 50%;
+    float: left;
+}
+
+.listing-style3 .room-price .price {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 2.3em;
+    display: inline-block;
+    width: 52%;
+}
+
+.listing-style3.hotel .details > * > *:last-child {
+    padding: 5px 15px 5px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.agent .sort-by-section {
+    background: rgba(249, 249, 249, 0.6);
+    padding: 0 20px;
+}
+
+.agent .search-btn-mod {
+    padding-top: 33px;
+}
+
+.room-price {
+    text-align: right;
+}
+
+.room-price .b-detail {
+    display: inline-block;
+    padding: 0 10px;
+    width: 45%;
+}
+
+#hotel-availability .room-list .box .action-section, #cruise-availability .room-list .box .action-section {
+    vertical-align: middle;
+}
+
+.section {
+    padding: 25px;
+}
+
+#header .logo {
+    margin: 10px 0 0;
+}
+
+#footer .bottom .logo {
+    margin: 7px 0 0;
+}
+
+.hotels .icon-box.style1 > i {
+    line-height: 85px;
+}
+
+.global-map-area .description p {
+    font-size: 18px;
+}
+
+.large-block {
+    margin-bottom: 0px;
+}
+
+#footer.style3 .footer-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+}

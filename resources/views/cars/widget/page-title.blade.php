@@ -1,0 +1,15 @@
+@section('page-title')
+
+<div class="page-title-container">
+    <div class="container">
+        <div class="page-title pull-left">
+            <h2 class="entry-title">Car Search Results</h2>
+        </div>
+        <ul class="breadcrumbs pull-right">
+            <li><a href="#">HOME</a></li>
+            <li class="active">Car Search Results</li>
+        </ul>
+    </div>
+</div>
+
+@stop
